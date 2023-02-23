@@ -1,16 +1,17 @@
 #include "main.h"
 /**
  * print_most_numbers -> this prints most numbers
+ * Return: void
  */
 
 void print_most_numbers(void)
 {
-	int x;
+	char c;
 
-	for (x = 0; x < 10; x++)
+	for (c = 0; c < 10; c++)
 	{
-		if (x != 2 && x != 4)
-			_putchar(x + '0');
+		if (c != 2 && c != 4)
+			_putchar(c + '0');
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
