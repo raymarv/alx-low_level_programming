@@ -4,7 +4,6 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (success)
  */
 
@@ -16,7 +15,7 @@ int main(void)
 	{
 		for (p = d + 1; p <= '9'; p++)
 		{
-			for (p = q +1; p <= '9'; q++)
+			for (p = q + 1; p <= '9'; q++)
 			{
 				if ((p != d) != q)
 				{
