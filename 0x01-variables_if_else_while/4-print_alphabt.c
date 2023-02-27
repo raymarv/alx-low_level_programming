@@ -17,7 +17,6 @@ int main(void)
 	{
 		if (low != e && low != q)
 			putchar(low);
-		c++;
 	}
 	putchar('\n');
 	return (0);
